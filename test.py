@@ -1,9 +1,11 @@
-# Test1.py
+# test.py
+"""
+Testing data
+"""
+from ship import Ship
 
-from Ship import Ship
-
-grid_size = 5
-n_ships = 6
+GRID_SIZE = 5
+N_SHIPS = 6
 ships = [
     Ship(1),
     Ship(1),

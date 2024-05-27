@@ -1,0 +1,16 @@
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=7
+
+# Maximum number of instance attributes in a class
+max-attributes=10
+
+# Minimum number of public methods in a class
+min-public-methods=0
+
+[FORMAT]
+max-line-length=120
+
+[MESSAGES CONTROL]
+# Disable import errors
+disable=import-error

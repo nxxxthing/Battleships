@@ -1,6 +1,6 @@
 # tests/test_coordinates.py
 
-from Coordinates import Coordinates
+from coordinates import Coordinates
 
 
 def test_coordinates_initialization():
