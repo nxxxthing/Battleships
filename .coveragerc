@@ -5,6 +5,7 @@ source = .
 omit =
     tests/*
     app/*
+    client_runner_script.py
 
 [report]
 exclude_lines =
