@@ -9,10 +9,12 @@ class Runner:
         self.ships = ships
         self.vertical_limit = vertical_limit
         self.horizontal_limit = horizontal_limit
-        self.ships_coordinates = [Coordinates() for _ in range(n_ships)]
-        self.hasToBePlaced = [[0 for _ in range(grid_size)] for _ in range(grid_size)]
-        self.grid = [[0 for _ in range(grid_size)] for _ in range(grid_size)]
+
+        self.ships_coordinates = [Coordinates() for _ in range(self.n_ships)]
+        self.hasToBePlaced = [[0 for _ in range(self.grid_size)] for _ in range(self.grid_size)]
+        self.grid = [[0 for _ in range(self.grid_size)] for _ in range(self.grid_size)]
         self.solution_found = False
+
 
     def is_outside_of_grid(self, x, y):
         return x < 0 or y < 0 or x >= self.grid_size or y >= self.grid_size
