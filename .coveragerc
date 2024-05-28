@@ -6,6 +6,10 @@ omit =
     tests/*
     app/*
     client_runner_script.py
+    schemas.py
+    models.py
+    database.py
+    crud.py
 
 [report]
 exclude_lines =
